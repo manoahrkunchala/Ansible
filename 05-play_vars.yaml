@@ -8,8 +8,8 @@
   tasks:
   - name: print couse information
     ansible.builtin.debug:
-      msg: "Hello {{ course: }}, couse duration is  {{ duration }} and Trainer is {{ trainer }}"
+      msg: "Hello {{ course }}, couse duration is  {{ duration }} and Trainer is {{ trainer }}"
 
   - name: print couse information
     ansible.builtin.debug:
-      msg: "Hello {{ course: }}, couse duration is  {{ duration }} and Trainer is {{ trainer }}"
+      msg: "Hello {{ course }}, couse duration is  {{ duration }} and Trainer is {{ trainer }}"
