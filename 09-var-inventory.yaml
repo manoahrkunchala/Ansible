@@ -1,0 +1,7 @@
+- name: variables from prompt
+  hosts: local
+  connection: local
+  tasks:
+  - name: printing user information
+    ansible.builtin.debug:
+      msg: "Hello COURSE is {{ COURSE }}, DURATION is {{ DURATION }}, TRAINER: {{ TRAINER }}"
